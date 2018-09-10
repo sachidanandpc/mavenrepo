@@ -29,7 +29,7 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://localhost:5050/repository/SAMPLE-SNAP-REL/</url>
+            <url>http://localhost:5050/repository/SAMPLE-REL/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
