@@ -34,7 +34,7 @@
         <snapshotRepository>
             <id>deploymentSNAP</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://localhost:5050/repository/SAMPLE-PROXIBID/</url>
+            <url>http://localhost:5050/repository/SAMPLE-SNAP/</url>
         </snapshotRepository>       
     </distributionManagement>
   <dependencies>
