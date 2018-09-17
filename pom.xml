@@ -25,6 +25,18 @@
       </plugin>
     </plugins>
   </build>
+     <distributionManagement>
+        <repository>
+            <id>deploymentREL</id>
+            <name>Internal Releases</name>
+            <url>http://localhost:5050/repository/SAMPLE-REL/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deploymentSNAP</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://localhost:5050/repository/SAMPLE-SNAP/</url>
+        </snapshotRepository>
+    </distributionManagement>
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
