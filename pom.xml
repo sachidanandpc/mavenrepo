@@ -36,11 +36,11 @@
             <name>Internal Snapshot Releases</name>
             <url>http://localhost:5050/repository/SAMPLE-SNAP/</url>
         </snapshotRepository>
-        <snapshotRepository1>
+        <snapshotRepository>
             <id>deploymentSNAP1</id>
             <name>Internal Snapshot Releases1</name>
             <url>http://localhost:5050/repository/SAMPLE-PROXIBID/</url>
-        </snapshotRepository1>
+        </snapshotRepository>
     </distributionManagement>
   <dependencies>
   	<dependency>
